@@ -1,0 +1,841 @@
+
+        @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+        
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #fff;
+    line-height: 1.6;
+    background: linear-gradient(-45deg, #000000, #000000, #000000, #000000);
+    background-size: 400% 400%;
+    animation: AnimationName 15s ease infinite;
+    padding: 50px 20px;
+    
+}
+h1, h2 {
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.2);
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+    
+    
+}
+.container h4 {
+    text-align: center; /* Center-align the title */
+    color: #051eff; /* Dark grey color for the text */
+    font-family: 'Wide Latian', sans-serif; /* Font family */
+    margin-bottom: 20px; /* Space between title and form */
+}
+.container iframe {
+    width: 100%; /* Responsive width */
+    height: 1084px; /* Fixed height as defined */
+    border-radius: 6px; /* Rounded corners */
+    border: none; /* No border */
+    
+}
+
+header {
+    color: #ffffff;
+    perspective: 1000px; /* Added for 3D effect */
+    margin-bottom: 40px;
+    background: url(https://i.ibb.co/zm81P6X/Whats-App-Image-2024-04-18-at-03-47-53-ce5186a6.jpg);
+    background-size: 100% 100%;
+    padding: 40px 0;
+    border-radius: 20px;
+    box-shadow: 0 10px 20px rgba(120, 114, 124, 0.794);
+    transition: transform 0.3s;
+    overflow: hidden; /* Ensure that children don't overflow */
+    text-align: center;
+    position: relative;
+
+}
+header:hover {
+    background: url(https://i.ibb.co/cY4JH6n/Whats-App-Image-2024-04-18-at-03-47-53-1ffababa.jpg);
+    background-size: 100% 100%;
+    
+    color: #ffffff; /* White text on hover */
+}
+@keyframes gradientBG {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+/* General styles for navigation list items */
+nav li {
+    display: inline-block; /* Aligns the links horizontally */
+    margin: 0 10px; /* Adds space between each button */
+}
+
+/* Styles for the links to make them look like buttons */
+nav a {
+    background: url(https://i.ibb.co/b3hrnPg/Whats-App-Image-2024-04-18-at-03-27-39-619894d8.jpg);
+    background-size: 100% 100%;
+    
+    color: white; /* Text color */
+    text-decoration: none; /* Removes underline from links */
+    padding: 10px 20px; /* Top and bottom padding, Left and right padding */
+    border-radius: 5px; /* Rounded corners */
+    transition: background-color 0.3s, color 0.3s; /* Smooth transition for hover effect */
+}
+
+
+/* Hover effect for buttons */
+nav a:hover {
+    background:url(https://i.ibb.co/8cGTmHN/Whats-App-Image-2024-04-18-at-03-30-47-2336d098.jpg);
+    background-size: 100% 100%;
+    
+    color: #ffffff; /* White text on hover */
+}
+
+
+
+
+section {
+    padding: 50px 0;
+}
+
+footer {
+    color: #ffffff;
+    perspective: 1000px; /* Added for 3D effect */
+    margin-bottom: 40px;
+    background: url(https://i.ibb.co/zm81P6X/Whats-App-Image-2024-04-18-at-03-47-53-ce5186a6.jpg);
+    background-size: 100% 100%;
+    padding: 40px 0;
+    border-radius: 20px;
+    box-shadow: 0 10px 20px rgba(120, 114, 124, 0.794);
+    transition: transform 0.3s;
+    overflow: hidden; /* Ensure that children don't overflow */
+    text-align: center;
+    position: relative;
+}
+
+footer:hover {
+    background: url(https://i.ibb.co/cY4JH6n/Whats-App-Image-2024-04-18-at-03-47-53-1ffababa.jpg);
+    background-size: 100% 100%;
+    color: #ffffff; /* White text on hover */
+}
+/* About Me section */
+.profile-picture {
+    display: block;
+    margin: 0 auto 40px;
+    border-radius: 50%;
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    border: 5px solid #ffffff;
+    box-shadow: 0 0 20px rgb(255, 225, 0);
+    transition: transform 0.3s;
+}
+
+
+
+.profile-picture:hover {
+    transform: scale(1.1) rotateY(180deg);
+    transition: transform 0.6s;
+}
+
+/* Experience section */
+#experience ul {
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    flex-wrap: wrap;
+}
+
+#experience li {
+    margin-bottom: 40px;
+    max-width: 300px;
+    text-align: center;
+}
+
+/* Projects section */
+.project {
+    perspective: 1000px; /* Added for 3D effect */
+    margin-bottom: 40px;
+    background: url(https://i.ibb.co/zm81P6X/Whats-App-Image-2024-04-18-at-03-47-53-ce5186a6.jpg);
+    background-size: 100% 100%;
+    padding: 40px;
+    border-radius: 20px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.4);
+    transition: transform 0.3s;
+    overflow: hidden; /* Ensure that children don't overflow */
+}
+
+
+.project:hover {
+    transform: rotateY(5deg);
+    background: url(https://i.ibb.co/cY4JH6n/Whats-App-Image-2024-04-18-at-03-47-53-1ffababa.jpg);
+    background-size: 100% 100%;
+    color: #ffffff; /* White text on hover */
+}
+.project-inner {
+    transition: transform 0.6s;
+    transform-style: preserve-3d;
+}
+.project-front, .project-back {
+    position: absolute;
+    backface-visibility: hidden;
+    width: 100%;
+    top: 0;
+    left: 0;
+}
+.project-back {
+    transform: rotateY(180deg);
+}
+.project h3 {
+    margin-bottom: 20px;
+    color: rgb(225, 221, 207);
+}
+
+/* Skill Bars */
+.skill {
+    margin-bottom: 20px;
+
+}
+
+.skill-bar {
+    background-color: #ddd;
+    height: 20px;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.skill-level {
+    height: 100%;
+    background: linear-gradient(-45deg, #00f919, #04ff26d2, #e1e114, #fa0400cb);
+    transition: width 1s ease;
+    
+}
+.skill-level:hover {
+    height: 100%;
+    background: linear-gradient(-45deg,green,yellow,blue,red);
+    background-size: 400% 400%;
+    animation: AnimationName 15s ease infinite;
+    padding: 50px 20px;
+}
+
+/* Skill Levels */
+.skill-level.html { width: 90%; } /* HTML5 proficiency level */
+.skill-level.css { width: 80%; } /* CSS3 proficiency level */
+.skill-level.js { width: 70%; } /* JavaScript proficiency level */
+.skill-level.java { width: 80%; } /* Java proficiency level */
+.skill-level.c { width: 70%; } /* C proficiency level */
+.skill-level.python { width: 85%; } /* Python proficiency level */
+/* Add more skill levels as needed */
+
+
+/* Contact form */
+#contact-form {
+    
+    background: url(https://i.ibb.co/cY4JH6n/Whats-App-Image-2024-04-18-at-03-47-53-1ffababa.jpg);
+    background-size: 100% 100%;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+#contact-form label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+#contact-form input[type="text"],
+#contact-form input[type="email"],
+#contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: none;
+    border-radius: 5px;
+    box-sizing: border-box;
+    background-color: rgba(255, 255, 255, 0.1);
+    color: #fff;
+}
+
+#contact-form textarea {
+    height: 150px;
+}
+
+#contact-form button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background: linear-gradient(135deg, #2df800, #4000f0);
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+#contact-form button:hover {
+    background: linear-gradient(135deg, #258305, #1107a0);
+}
+
+/* Error message styling */
+.error-message {
+    color: red;
+    font-size: 14px;
+    margin-top: 5px;
+}
+
+/* Success message styling */
+.success-message {
+    color: green;
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+@media (max-width: 768px) {
+    /* Responsive styling */
+    .container {
+        padding: 0 10px;
+    }
+
+    header {
+        padding: 20px 0;
+    }
+
+    nav ul li {
+        margin-right: 10px;
+    }
+
+    section {
+        padding: 30px 0;
+    }
+
+    .profile-picture {
+        width: 150px;
+        height: 150px;
+    }
+
+    #experience ul {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #experience li {
+        text-align: center;
+        max-width: 100%;
+    }
+
+    #skills ul {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #skills li {
+        max-width: 100%;
+    }
+
+    #contact-form {
+        max-width: 100%;
+    }
+
+    #contact-form input[type="text"],
+    #contact-form input[type="email"],
+    #contact-form textarea {
+        width: calc(100% - 20px);
+    }
+}
+#myBtn {
+    border-radius: 10px; /* Rounded corners */
+    display: none; /* Hidden by default */
+    position: fixed; /* Fixed/sticky position */
+    bottom: 20px; /* Place the button at the bottom of the page */
+    right: 40px; /* Place the button 30px from the right */
+    border: none; /* Remove borders */
+    outline: none; /* Remove outline */
+    color: white; /* Text color */
+    cursor: pointer; /* Add a mouse pointer on hover */
+    background-color: transparent;
+    font-size: x-large;
+    
+    
+    
+}
+
+#myBtn:hover {
+    background: linear-gradient(-65deg, #ff0000, #b508d8a1, #0920cd, #06e811);
+    background-size: 400% 400%;
+    animation: AnimationName 5s ease infinite;
+    text-align: center;
+    color: white;
+}
+.wave-container {
+    position: relative;
+    width: 100%;
+    height: 200px; /* Set to the desired wave container height */
+    overflow: hidden;
+    background: linear-gradient(-65deg, #00ffe5, #36e6017f, #001dfa, #03cdff);
+    background-size: 400% 400%;
+    animation: AnimationName 5s ease infinite;
+}
+
+.wave {
+    position: absolute;
+    width: 200%; /* Larger width for a smoother animation */
+    height: 100%;
+    bottom: 0;
+    background-repeat: repeat-x;
+    animation: wave-animation 10s linear infinite;
+}
+
+.wave1 {
+    background-image: url("https://i.ibb.co/SRtmGRb/water-1018808-640.jpg");
+    opacity: 0.6;
+    animation-duration: 10s;
+}
+
+.wave2 {
+    background-image: url("https://i.ibb.co/SRtmGRb/water-1018808-640.jpg");
+    opacity: 0.4;
+    animation-duration: 20s;
+    animation-delay: -5s; /* Offset the animation start to vary the wave pattern */
+}
+
+.wave3 {
+    background-image: url("https://i.ibb.co/SRtmGRb/water-1018808-640.jpg");
+    opacity: 0.5;
+    animation-duration: 30s;
+    animation-delay: -10s;
+}
+
+@keyframes wave-animation {
+    from { transform: translateX(0); }
+    to { transform: translateX(-50%); }
+}
+
+.cursor {
+    width: 30px;
+    height: 30px;
+    border: 2px solid #9d08d8;
+    border-radius: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    pointer-events: none;
+    mix-blend-mode: difference;
+  }
+  
+  .hero {
+    background:linear-gradient(135deg ,rgb(100, 3, 3),rgb(148, 3, 3),rgb(255, 72, 0),rgb(255, 145, 0),rgb(225, 255, 0),rgb(138, 242, 1),rgb(0, 248, 13),rgb(0, 255, 115),rgb(0, 255, 213),rgb(0, 255, 251),rgb(0, 191, 255),rgb(0, 128, 255),rgb(0, 119, 255),rgb(0, 47, 255),rgb(144, 0, 255),rgb(183, 0, 255),rgb(242, 0, 255),rgb(255, 0, 191),rgb(255, 0, 136),rgb(255, 0, 43));
+            
+    background-size: 400% 400%;
+    animation: AnimationName 5s ease infinite;
+    padding: 50px 20px;
+    text-align: center;
+    color: white;
+}
+
+@keyframes AnimationName { 
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+
+/* Styling for the feedback form section */
+#feedback-form {
+    perspective: 1000px; /* Added for 3D effect */
+    width: 100%; /* Full width to utilize available space */
+    max-width: 800px; /* Max width to keep the form readable and not too stretched */
+    margin: 0 auto; /* Center the form horizontally */
+    padding: 30px; /* Padding for spacing around the content */
+    background: url(https://i.ibb.co/2j52yBW/Whats-App-Image-2024-04-18-at-03-47-52-8d4eb59c.jpg);
+    background-size: 100% 100%;
+    padding: 50px 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05); /* Light shadow for subtle depth */
+    border-radius: 8px; /* Rounded corners */
+}
+
+/* Header styling within the feedback form */
+#feedback-form h2 {
+    text-align: center; /* Center-align the title */
+    color: #f8f8f8; /* Dark color for better readability */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* Font styling */
+    margin-bottom: 20px; /* Margin below the title to separate from form */
+}
+
+/* Iframe styling to fit the form properly */
+#feedback-form iframe {
+
+    width: 100%; /* Full width to match the section */
+    height: 500px; /* Fixed height, can adjust based on content */
+    border: none; /* Remove default border */
+    border-radius: 4px; /* Consistent rounded corners */
+}
+
+/* Responsive design adjustments */
+@media (max-width: 768px) {
+    #feedback-form {
+        padding: 20px; /* Reduced padding on smaller screens */
+    }
+    #feedback-form iframe {
+        height: 600px; /* Adjust height as needed for better mobile view */
+    }
+}
+
+/* Additional styling for the button inside the hero section for better visibility */
+.hero .button {
+    background-color: #ffffff;
+    color: #007bff;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    display: inline-block;
+    margin-top: 20px;
+    transition: background-color 0.3s, color 0.3s;
+    perspective: 1000px; /* Added for 3D effect */
+}
+
+.hero .button:hover {
+    background-color: #007bff;
+    color: #ffffff;
+    perspective: 1000px; /* Added for 3D effect */
+}
+
+/* Base styling for the quiz section */
+#quiz {
+    font-family: 'Arial', sans-serif;
+    background: url(https://i.ibb.co/cY4JH6n/Whats-App-Image-2024-04-18-at-03-47-53-1ffababa.jpg);
+    background-size: 100% 100%;
+    padding: 50px 20px;
+    perspective: 1000px; /* Added for 3D effect */
+    border-radius: 12px;
+    box-shadow: 0 6px 20px rgba(157, 156, 156, 0.2);
+    width: 70%;
+    margin: 50px auto;
+    color: #fff;
+}
+
+#quiz-content {
+    margin-top: 30px;
+}
+
+/* Question styling */
+#question {
+    font-size: 20px;
+    margin-bottom: 30px;
+    font-weight: 500;
+    opacity: 0.9;
+}
+
+/* Styling for answer buttons */
+.answer {
+    background-color: #ffffff;
+    color: #007bff;
+    border: 0;
+    border-radius: 20px;
+    padding: 12px 25px;
+    margin: 10px;
+    cursor: pointer;
+    transition: transform 0.2s ease, background-color 0.3s;
+    font-weight: bold;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+
+.answer:hover {
+    transform: scale(1.05);
+    background-color: #007bff;
+    color: #ffffff;
+}
+
+.answer:disabled {
+    cursor: default;
+    opacity: 0.7;
+}
+
+/* Result display with animation */
+#quiz-result {
+    margin-top: 30px;
+    font-size: 18px;
+    transition: all 0.3s ease;
+    height: 24px; /* Maintain a consistent height even when empty */
+}
+
+/* Next question button */
+#next-question {
+    display: none;
+    background-color: #ff511c;
+    color: white;
+    border: none;
+    padding: 12px 30px;
+    font-size: 18px;
+    border-radius: 20px;
+    margin-top: 20px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s ease;
+    
+}
+
+#next-question:hover {
+    background-color: #e64a19;
+    transform: scale(1.05);
+}
+
+
+/* Responsive adjustments for smaller devices */
+@media (max-width: 600px) {
+    #quiz {
+        width: 90%;
+    }
+
+    .answer {
+        padding: 10px 20px;
+    }
+}
+#game {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #000000;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgb(83, 83, 82);
+    perspective: 5000px; /* Added for 3D effect */
+}
+
+#snakeGame {
+    background: url(https://i.ibb.co/cY4JH6n/Whats-App-Image-2024-04-18-at-03-47-53-1ffababa.jpg);
+    background-size: 100% 100%;;
+    background-size: cover;
+    border: 2px solid rgba(226, 224, 231, 0.623);
+    box-shadow: 0 0 15px rgba(159, 159, 159, 0.5);
+    perspective: 1000px; /* Added for 3D effect */
+}
+
+canvas {
+    background-color: #000;
+    display: block; /* Prevents extra space below the canvas */
+}
+#game-area {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.controls {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.horizontal-controls {
+    display: flex;
+}
+
+.control-button {
+    background: url(https://i.ibb.co/b3hrnPg/Whats-App-Image-2024-04-18-at-03-27-39-619894d8.jpg);
+    background-size: 100% 100%;
+    
+    color: white; /* Text color */
+    text-decoration: none; /* Removes underline from links */
+    padding: 10px 20px; /* Top and bottom padding, Left and right padding */
+    border-radius: 5px; /* Rounded corners */
+    transition: background-color 0.3s, color 0.3s; /* Smooth transition for hover effect */
+}
+.control-button:hover{
+    background:url(https://i.ibb.co/8cGTmHN/Whats-App-Image-2024-04-18-at-03-30-47-2336d098.jpg);
+    background-size: 100% 100%;
+    
+    color: #ffffff; /* White text on hover */
+}
+
+.control-button:active {
+    transform: translateY(2px);
+    box-shadow: 0 1px #9a9a9a;
+}
+
+
+#up-btn {
+    order: -1;  /* Places the "Up" button above the row */
+}
+
+form {
+    margin: 30px auto;
+    padding: 15px;
+    background: #222; /* Dark grey background for the form */
+    border-radius: 8px;
+    width: 80%; /* Adjust width as per design requirements */
+    box-shadow: 0 4px 8px rgba(255, 255, 255, 0.15); /* Subtle white shadow for depth */
+    text-align: center;
+    display: block;
+}
+
+input[type="text"] {
+    padding: 10px;
+    width: 70%; /* Adjust width for a better fit */
+    border: 2px solid #b4b3b7c5; /* Darker border for better visibility */
+    background-color: #615d5d; /* Dark input background */
+    color: #ddd; /* Light font color for contrast */
+    border-radius: 5px;
+    margin-right: 5px; /* Space between input field and button */
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #007BFF; /* Vibrant blue background for the button */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s; /* Smooth transition for hover effect */
+}
+
+button:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+}
+
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: #ccc;
+    opacity: 1; /* Firefox */
+}
+
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+    color: #ccc;
+}
+
+::-ms-input-placeholder { /* Microsoft Edge */
+    color: #ccc;
+}
+
+/* Toggle Button */
+.theme-toggle {
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    font-size: 24px;
+}
+
+/* Dark Mode Specific Styles */
+
+.fas.fa-sun { color: #f9dc3c; } /* Sun icon */
+.fas.fa-moon { color: #f8f8f8; } /* Moon icon */
+
+:root {
+    --primary-color: #21ff2c;
+    --background-color: #d97575;
+    --text-color: #efd9d9;
+    --button-hover-color: #f5e4e4;
+}
+body.dark-mode {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    color: var(--text-color);
+    line-height: 1.6;
+    background: linear-gradient(-135deg, #edc6c6, #4899c7, #a6e99d, #f67ff6);
+    background-size: 400% 400%;
+    animation: AnimationName 5s ease infinite;
+    padding: 50px 20px;
+    
+}
+
+
+@keyframes colorChange {
+    0% { color: rgb(164, 153, 153); }
+    25% { color: rgb(174, 190, 176); }
+    50% { color: rgb(200, 198, 211); }
+    75% { color: rgb(214, 208, 195); }
+    100% { color: rgb(176, 160, 176); }
+}
+
+.text-animate {
+    animation: colorChange 10s infinite; /* Change duration as needed */
+}
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0,0,0,0.4);
+}
+
+.modal-content {
+    background-color: #f4f4f4;
+    margin: 15% auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 50%;
+}
+
+.close {
+    color: #aaaaaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+#menuBtn {
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.menu-icon span {
+    display: block;
+    width: 30px;
+    height: 3px;
+    background-color: #ffffff;
+    margin: 4px;
+    transition: all 0.3s ease;
+}
+
+#navMenu {
+    display: none;
+    width:20%;
+    height:5%;
+    background-color:transparent;
+}
+
+#navMenu ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+#navMenu ul li a {
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    color: #ffffff;
+    border-bottom: 1px solid #ddd;
+    background: transparent;
+    box-shadow: black;
+}
+
